@@ -1,0 +1,75 @@
+
+    GRID
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns:  100px 300px 100px;
+    grid-template-rows: 100px 300px ;
+  
+}
+.why-you-bulling-me{
+    background-color:steelblue;
+    border: 1px solid slateblue;
+}
+.why-you-bulling-me:nth-child(1){
+    grid-column: 1/4;
+}
+.why-you-bulling-me:nth-child(2){
+   
+    grid-row:2/4;
+}
+
+.why-you-bulling-me:nth-child(5){
+    
+    grid-column: 2/4;
+}
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0082e6;
+}
+.logo{
+    color: bisque;
+    font-size: 30px;
+    font-style: oblique;
+}
+a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:600px) {
+    ul{
+        display: none;
+    }
+    input:checked  ul{
+        display: flex;
+    }
+}
+*/
